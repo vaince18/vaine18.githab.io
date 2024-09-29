@@ -1,0 +1,128 @@
+/* Стили для контейнера с текстом */
+.container-text {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 100px;
+    margin-left: 120px;
+    margin-top: 15px;
+    
+      
+  }
+/* Стили для контейнера с текстом, выравнивание по центру */
+  .container-text2 {
+    text-align: center;
+
+  }
+
+/* Стили для контейнера с текстом (дубликат container-text) */
+  .container-text6 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 100px;
+    margin-left: 120px;
+    margin-top: 15px;
+
+  }
+/* Стили для заголовков h1, h2, h3 */
+  h1, h2, h3 {
+    color: rgb(60, 159, 68);
+  }
+
+.container-ul {
+    padding-left: 40px;
+
+}
+
+/* Стили для элемента с классом appbar */
+.appbar{
+    height: 100px;
+}
+/* Стили для элемента с классом icon */
+  .icon{
+    bottom: 500px;
+}
+
+/* Стили для элементов пагинации */
+.paginaton a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px; 
+    transition: .4s;
+    margin-top: 100px;
+   
+       
+}
+/* Стили для активной ссылки пагинации */
+.paginaton a.active {
+    background-color: rgb(60, 159, 68);
+
+}
+/* Стили для ссылок пагинации при наведении курсора */
+.paginaton a:hover:not(.active) {
+    background-color: rgb(117, 163, 117);
+}
+/* Стили для футера */
+  #footer {
+    box-sizing: border-box;
+    height: 160px;
+    margin-left: 0px;
+    transition: margin-left 0.2s;
+    margin-top: 100px;
+    
+  }
+/* Стили для кнопок */
+button {
+    padding: 20px 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(62, 142, 74);
+    cursor: pointer;
+    color: black;
+    font-weight: 600px;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px #000;
+
+}
+ 
+/* Стили для таблицы */
+table {
+    font-family: sans-serif;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background-color: rgb(62, 142, 74);
+    border: 16px solid #a8b8ae;
+    border-radius: 16px;
+    margin-left: 120px;
+    
+    
+}
+/* Стили для ячеек заголовка таблицы */
+th {
+    font-size: 18px;
+    padding: 10px;
+}
+/* Стили для обычных ячеек таблицы */
+td {
+    background-color: aquamarine;
+    padding: 10px;
+}
+/* Стили для iframe */
+iframe {
+    margin-left: 350px;
+    
+
+    /* Стили для изображения */
+}
+.img1{
+  width: 600px;
+}
+/* Стили для контейнера с кнопкой */
+.button{
+  text-align: center;
+  padding-top:200px;
+
+}
+
+  
